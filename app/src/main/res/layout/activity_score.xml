@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".Questions"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SCORE"
+            android:textSize="30sp"
+            android:fontFamily="@font/poppinslmedium"
+            android:gravity="center"
+            android:background="@color/seagreen"
+            android:textColor="@color/white"
+            android:padding="10dp" />
+    </LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_marginTop="150dp"
+
+    >
+
+
+        <TextView
+            android:id="@+id/tv_percentage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="22sp"
+            android:textColor="@android:color/black"
+            android:text="Percentage: 0.0%" />
+
+        <TextView
+            android:id="@+id/tv_correct_answers"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:layout_marginTop="16dp"
+            android:text="Correct Answers: 0/0" />
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Retake"
+        android:textStyle="bold"
+        android:fontFamily="@font/poppinslmedium"
+        android:textSize="20sp"
+        android:backgroundTint="@color/seagreen"
+        android:layout_margin="30dp"
+        android:id="@+id/btnRetake"
+        android:textColor="@color/white"
+        />
+
+    </LinearLayout>
+</LinearLayout>

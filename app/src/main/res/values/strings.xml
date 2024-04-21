@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Quizify</string>
+    <string name="login">LOGIN</string>
+    <string name="enter_your_name">Enter your name</string>
+    <string name="semester">Semester</string>
+    <string name="student_id">Student ID</string>
+    <string name="loginQuiz">Login</string>
+    <string name="home">Home</string>
+    <string name="quizify_dashboard">QUIZIFY</string>
+    <string name="dashboard">DASHBOARD</string>
+    <string name="take_quiz">Take Quiz</string>
+    <string name="create_quiz">Create Quiz</string>
+    <string name="choose_quiz_category">CHOOSE QUIZ COURSE</string>
+    <string name="oop">OOP</string>
+    <string name="dsa">DSA</string>
+    <string name="database">Database</string>
+    <string name="go_back">Go Back</string>
+    <string name="submit">Submit</string>
+</resources>
